@@ -1,0 +1,8 @@
+<!--components/w-swiper/w-swiper.wxml-->
+<swiper indicator-dots indicator-color="#fff" indicator-active-color="#eb4450" autoplay interval="3000" circular>
+    <swiper-item class="swiper-item" wx:for="{{banners}}" wx:key="goods_id">
+        <navigator url="{{item.navigator_url}}">
+            <image class="swiper-image" src="{{item.image_src}}" mode="widthFix"></image>
+        </navigator>
+    </swiper-item>
+</swiper>

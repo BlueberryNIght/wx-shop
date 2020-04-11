@@ -1,0 +1,13 @@
+<!--pages/index/childCpn/floor.wxml-->
+<view class="floors">
+	<view class="floor-group" wx:for="{{floors}}" wx:for-index="index1" wx:for-item="item1" wx:key="floor_title">
+		<view class="floor-title">
+			<image src="{{item1.floor_title.image_src}}" mode="widthFix"></image>
+		</view>
+		<view class="floor-list">
+			<navigator wx:for="{{item1.product_list}}" wx:for-index="index2" wx:for-item="item2" wx:key="index2" url="{{item2.navigator_url}}">
+				<image src="{{item2.image_src}}" mode="{{index2===0?'widthFix':'scaleToFill'}}" ></image>
+			</navigator>
+		</view>
+	</view>
+</view>

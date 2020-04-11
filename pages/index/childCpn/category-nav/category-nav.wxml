@@ -1,0 +1,6 @@
+<!--pages/index/childCpn/category-nav.wxml-->
+<view class="categorys">
+	<navigator class="category-item" wx:for="{{categroyNav}}" wx:key="index" url="{{item.navigator_url}}">
+		<image src="{{item.image_src}}" mode="widthFix"></image>
+	</navigator>
+</view>

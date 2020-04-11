@@ -1,0 +1,4 @@
+<w-serch-input />
+<w-swiper banners="{{banners}}"  />
+<w-category-nav categroyNav="{{categroyNav}}" />
+<w-floor floors="{{floors}}" />

@@ -1,2 +1,17 @@
 /**app.wxss**/
 @import './assets/css/iconfont.wxss';
+/* 不支持通配符* */
+page,view,swiper,swiper-item,text,navigator,image{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 定义主题颜色 */
+page{
+    --themeColor: #eb4450;
+    font-size: 28rpx;
+}
+/* 使用主题颜色 */
+/* view{
+    color:var(--themColor)
+} */

@@ -1,0 +1,16 @@
+.serch-input{
+    display: flex;
+    padding: 10rpx;
+    height: 90rpx;
+    background-color: var(--themeColor);
+}
+.serch-input navigator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: #666666;
+    background-color: #ffffff;
+    border-radius: 10rpx;
+}
