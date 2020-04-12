@@ -15,3 +15,6 @@ page{
 /* view{
     color:var(--themColor)
 } */
+image{
+    width: 100%;
+}

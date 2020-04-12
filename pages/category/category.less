@@ -1,0 +1,55 @@
+page{
+    height: 100%;
+}
+.cates{
+    height: 100%;
+    .cates-containor{
+        // less 原样输出calc计算
+        height: ~'calc(100vh - 90rpx)';
+        display: flex;
+        .left-menu{
+            flex: 2;
+            background-color: #f6f6f6;
+            .menu-item{
+                height: 90rpx;
+                line-height: 90rpx;
+                text-align: center;
+                color: #666;
+            }
+            .active{
+                font-weight: 700;
+                color: var(--themeColor);
+                background-color: #fff;
+                border-left: 6rpx solid var(--themeColor);
+            }
+        }
+        // 内容区域
+        .right-content{
+            flex: 5;
+            .goods-title{
+                height: 90rpx;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #ccc;
+                .cat_name{
+                    padding: 0 10px;
+                    color: #111;
+                    font-size: 30rpx;
+                }
+            }
+            .goods-list{
+                display: flex;
+                flex-wrap: wrap;
+                navigator{
+                    width: 33.33%;
+                    padding: 30rpx;
+                }
+                .goods-name{
+                    text-align:center;
+                }
+            }
+        }
+    }
+}

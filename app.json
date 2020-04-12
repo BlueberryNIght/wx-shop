@@ -20,25 +20,25 @@
             {
                 "pagePath": "pages/index/index",
                 "iconPath": "assets/image/tabbar/home.png",
-                "selectedIconPath": "./assets/image/tabbar/home_active.png",
+                "selectedIconPath": "assets/image/tabbar/home_active.png",
                 "text": "首页"
             },
             {
                 "pagePath": "pages/category/category",
-                "iconPath": "./assets/image/tabbar/category.png",
-                "selectedIconPath": "./assets/image/tabbar/category_active.png",
+                "iconPath": "assets/image/tabbar/category.png",
+                "selectedIconPath": "assets/image/tabbar/category_active.png",
                 "text": "分类"
             },
             {
                 "pagePath": "pages/cart/cart",
-                "iconPath": "./assets/image/tabbar/cart.png",
-                "selectedIconPath": "./assets/image/tabbar/cart_active.png",
+                "iconPath": "assets/image/tabbar/cart.png",
+                "selectedIconPath": "assets/image/tabbar/cart_active.png",
                 "text": "购物车"
             },
             {
                 "pagePath": "pages/user/user",
-                "iconPath": "./assets/image/tabbar/profile.png",
-                "selectedIconPath": "./assets/image/tabbar/profile_active.png",
+                "iconPath": "assets/image/tabbar/profile.png",
+                "selectedIconPath": "assets/image/tabbar/profile_active.png",
                 "text": "我的"
             }
         ]

@@ -1,1 +1,53 @@
-/* pages/category/category.wxss */
+page {
+  height: 100%;
+}
+.cates {
+  height: 100%;
+}
+.cates .cates-containor {
+  height: calc(100vh - 90rpx);
+  display: flex;
+}
+.cates .cates-containor .left-menu {
+  flex: 2;
+  background-color: #f6f6f6;
+}
+.cates .cates-containor .left-menu .menu-item {
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  color: #666;
+}
+.cates .cates-containor .left-menu .active {
+  font-weight: 700;
+  color: var(--themeColor);
+  background-color: #fff;
+  border-left: 6rpx solid var(--themeColor);
+}
+.cates .cates-containor .right-content {
+  flex: 5;
+}
+.cates .cates-containor .right-content .goods-title {
+  height: 90rpx;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+}
+.cates .cates-containor .right-content .goods-title .cat_name {
+  padding: 0 10px;
+  color: #111;
+  font-size: 30rpx;
+}
+.cates .cates-containor .right-content .goods-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cates .cates-containor .right-content .goods-list navigator {
+  width: 33.33%;
+  padding: 30rpx;
+}
+.cates .cates-containor .right-content .goods-list .goods-name {
+  text-align: center;
+}

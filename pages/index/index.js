@@ -18,36 +18,25 @@ Page({
   },
   // methods
   //获取轮播图数据
-  _getSwiperDate() {
-    getSwiperDate().then(res => {
-      this.setData({
-        banners: res.data.message
-      })
-    }).catch(error => {
-      console.log(error);
+  async _getSwiperDate() {
+    const { data: res } = await getSwiperDate()
+    this.setData({
+      banners: res.message
     })
   },
   // 获取分类导航数据
-  _getCategoryNavDate() {
-    getCategoryNavDate().then(res => {
+  async _getCategoryNavDate() {
+    const {data: res} = await getCategoryNavDate()
       this.setData({
-        categroyNav: res.data.message
+        categroyNav: res.message
       })
-    }).catch(error => {
-      console.log(error);
-    })
   },
-  _getFloorDate() {
-    getFloorDate().then(res => {
+  async _getFloorDate() {
+    const {data: res} = await getFloorDate()
       this.setData({
-        floors: res.data.message
+        floors: res.message
       })
-    }).catch(error => {
-      console.log(error);
-    })
   },
-
-
 
   /**
    * 生命周期函数--监听页面加载
