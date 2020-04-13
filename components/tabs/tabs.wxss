@@ -1,0 +1,16 @@
+.tabs-warp {
+  background-color: #fff;
+  border-bottom: 2rpx solid #eee;
+}
+.tabs-warp .tabs {
+  display: flex;
+}
+.tabs-warp .tabs .tab-item {
+  flex: 1;
+  text-align: center;
+  padding: 15rpx 0;
+}
+.tabs-warp .tabs .active {
+  color: var(--themeColor);
+  border-bottom: 6rpx solid currentColor;
+}

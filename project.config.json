@@ -60,8 +60,23 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pages/category/category",
-					"pathName": "pages/category/category",
+					"name": "pages/goods_list/goods_list",
+					"pathName": "pages/goods_list/goods_list",
+					"query": "cid=5",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "pages/goods_detail/goods_detail",
+					"pathName": "pages/goods_detail/goods_detail",
+					"query": "goods_id=43985",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/goods_list/goods_list",
+					"pathName": "pages/goods_list/goods_list",
+					"query": "",
 					"scene": null
 				}
 			]

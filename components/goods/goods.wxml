@@ -1,0 +1,16 @@
+<!--components/goods/goods.wxml-->
+<view class="goods-list">
+	<block wx:for="{{goodsList}}" wx:key="goods_id">
+		<navigator url="/pages/goods_detail/goods_detail?goods_id={{item.goods_id}}">
+			<view class="goods-item">
+				<view class="goods-image">
+					<image mode="widthFix" src="{{item.goods_small_logo?item.goods_small_logo:'/assets/image/img.png'}}" />
+				</view>
+				<view class="goods-content">
+					<view class="goods-name">{{item.goods_name}}</view>
+					<view class="goods-price">￥{{item.goods_price}}</view>
+				</view>
+			</view>
+		</navigator>
+	</block>
+</view>

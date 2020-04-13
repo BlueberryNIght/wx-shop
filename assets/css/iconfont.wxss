@@ -23,7 +23,7 @@
     content: "\e636";
   }
   
-  .icon-qicheqianlian-:before {
+  .icon-qicheqianlian:before {
     content: "\e618";
   }
   
@@ -31,7 +31,7 @@
     content: "\e608";
   }
   
-  .icon-tubiaolunkuo-:before {
+  .icon-tubiaolunkuo:before {
     content: "\e606";
   }
   
@@ -43,7 +43,7 @@
     content: "\e60c";
   }
   
-  .icon-yixianshi-:before {
+  .icon-yixianshi:before {
     content: "\e616";
   }
   

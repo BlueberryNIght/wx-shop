@@ -1,0 +1,10 @@
+<view class="tabs-warp">
+  <view class="tabs">
+  <view class="tab-item {{index === currentIndex? 'active' : ''}}" 
+        wx:for="{{tabTitles}}" 
+        wx:key="index"
+        data-index="{{index}}"
+        bindtap="handleItemTap"
+        >{{item}}</view>
+</view>
+</view>
